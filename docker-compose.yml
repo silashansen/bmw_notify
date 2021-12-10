@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  bmw_notify:
+    build: .
+    ports:
+      - "9000:8080"
+    env_file: bmw_notify.env
+    # environment:
+    #   - TWILIO_ACCOUNT_SID=${TWILIO_ACCOUNT_SID}
+    #   - TWILIO_AUTH_TOKEN=${TWILIO_AUTH_TOKEN}
+    #   - BMW_USERNAME=${BMW_USERNAME}
+    #   - BMW_PASSWORD=${BMW_PASSWORD}
+    #   - SMS_FROM=${SMS_FROM}
+    #   - SMS_RECEIVERS=${SMS_RECEIVERS}
+    #   - SEND_SUCCESS_NOTIFICATION=${SEND_SUCCESS_NOTIFICATION}
+
