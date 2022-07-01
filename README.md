@@ -6,7 +6,7 @@ The specific use-case is running this as a container that is triggered as a lamb
 ## To run this
 1. Install dependencies
 <pre>pip3 install -r requirements.txt</pre>
-2. Create a new file called bmw_notify.env and fill it with the following:
+2. Create a new file called .env and fill it with the following:
 <pre>
 TWILIO_ACCOUNT_SID=
 TWILIO_AUTH_TOKEN=
